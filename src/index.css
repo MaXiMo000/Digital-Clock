@@ -1,0 +1,56 @@
+body{
+  background-image: url("./assets/wp9109979-4k-animated-wallpapers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+
+  /* optional */
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  
+}
+
+.clock-container{
+  transition: all 1s;
+}
+
+.clock{
+  color: white;
+  font-size: 7rem;
+  font-weight: 800;
+  padding: 20px;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgb(72, 70, 70);
+}
+
+
+@media screen and (max-width: 720px) {
+  .clock{
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .clock{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .clock{
+    font-size: 2.5rem;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .clock{
+    font-size: 2rem;
+    padding: 2px;
+  }
+}
